@@ -1,52 +1,52 @@
 # CineHub
 
-## Problem
+## Problema
 
-Groups of friends in Colombia waste time and lose plans going back and forth in WhatsApp trying to agree on which movie to watch, at what cinema, and at what time. Movie information (showtimes, cinema, poster, rating) gets buried in chat scroll, and there's no single place to propose a plan and see who's actually confirmed to come — so plans quietly fall apart.
+Los grupos de amigos en Colombia pierden tiempo y planes yendo de un lado a otro en WhatsApp tratando de ponerse de acuerdo sobre qué película ver, en qué cine y a qué hora. La información de las películas (horarios, cine, póster, calificación) se pierde entre los mensajes del chat, y no existe un solo lugar donde proponer un plan y ver quién realmente confirmó asistencia — así que los planes se van desarmando en silencio.
 
-## Web App Justification
+## Justificación de la aplicación web
 
-1. A WhatsApp group can't structure movie data (poster, rating, showtimes, cinema) — it's just scrolling text, and old plans get buried under new messages.
-2. A spreadsheet can't show real-time movie listings or let a friend tap "Yes / Maybe / No" on a plan — it has no interactive, shareable view.
-3. Existing apps like Cine Colombia or Cinemark let you buy tickets, but they don't help a group agree on *which* movie and *whether everyone is actually coming*.
-4. A shareable plan link lets any invited friend confirm attendance in one tap, without needing an account or being added to a group chat.
+1. Un grupo de WhatsApp no puede estructurar los datos de una película (póster, calificación, horarios, cine) — es solo texto que se desplaza, y los planes viejos quedan enterrados bajo mensajes nuevos.
+2. Una hoja de cálculo no puede mostrar cartelera en tiempo real ni dejar que un amigo responda "Sí / Tal vez / No" a un plan — no tiene una vista interactiva y compartible.
+3. Apps existentes como Cine Colombia o Cinemark permiten comprar boletas, pero no ayudan a que el grupo se ponga de acuerdo sobre *qué* película ver y *quién* realmente va a ir.
+4. Un link de plan compartible permite que cualquier amigo invitado confirme asistencia con un solo toque, sin necesitar cuenta ni ser agregado a un chat grupal.
 
-## Target Users
+## Usuarios objetivo
 
-University students and groups of friends in Colombia who want to plan a movie outing together but struggle to reach a decision and get confirmations through chat alone.
+Estudiantes universitarios y grupos de amigos en Colombia que quieren organizar una salida al cine juntos, pero les cuesta tomar una decisión y conseguir confirmaciones usando solo el chat.
 
-## User Stories
+## Historias de usuario
 
-- As a user, I want to search and browse popular movies so that I can decide what to watch.
-- As a user, I want to see showtimes and select a cinema, date, and hour so that I can build a plan around a specific screening.
-- As a plan creator, I want to share a link to my movie plan so that my friends can see all the details without me repeating them.
-- As an invited friend, I want to respond Yes / Maybe / No to a plan so that the organizer knows who is actually coming.
+- Como usuario, quiero buscar y explorar películas populares para poder decidir qué ver.
+- Como usuario, quiero ver los horarios y elegir cine, fecha y hora para poder armar un plan alrededor de una función específica.
+- Como creador de un plan, quiero compartir un link de mi plan de cine para que mis amigos vean todos los detalles sin que yo tenga que repetirlos.
+- Como amigo invitado, quiero responder Sí / Tal vez / No a un plan para que el organizador sepa quién realmente va a ir.
 
-## Team Roles
+## Roles del equipo
 
-| Member | GitHub | Role |
+| Integrante | GitHub | Rol |
 |---|---|---|
-| Samuel | [@samuraidm45-create](https://github.com/samuraidm45-create) | Frontend Developer — builds the interface, `index.html`, and the visual structure of CineHub's screens |
-| Samuel David Ortiz Pico | [@samueldavidortizpico-hash](https://github.com/samueldavidortizpico-hash) | Backend Developer — application logic, movie/showtime/plan data, feature integration |
-| Juan Pablo Vanegas | [@juanpablovanegas](https://github.com/juanpablovanegas) | UI/UX & Project Documentation — Figma wireframes, user experience, and project documentation |
+| Samuel | [@samuraidm45-create](https://github.com/samuraidm45-create) | Frontend Developer — construye la interfaz, el `index.html` y la estructura visual de las pantallas de CineHub |
+| Samuel David Ortiz Pico | [@samueldavidortizpico-hash](https://github.com/samueldavidortizpico-hash) | Backend Developer — lógica de la aplicación, datos de películas/funciones/planes, integración de funcionalidades |
+| Juan Pablo Vanegas | [@juanpablovanegas](https://github.com/juanpablovanegas) | UI/UX & Documentación del Proyecto — wireframes en Figma, experiencia de usuario, y documentación del proyecto |
 
 ## MVP
 
-**Must work:**
-- View movies
-- View movie details
-- View showtimes
-- Select a showtime
-- Create a plan
-- Display the plan
+**Debe funcionar:**
+- Ver películas
+- Ver el detalle de una película
+- Ver funciones/horarios
+- Seleccionar una función
+- Crear un plan
+- Mostrar el plan
 
-**Stretch (extension):**
-- Share plan via a real shareable link
-- Account system
-- Real attendance voting
-- Database persistence
-- Ticket purchase
+**Extensión (opcional):**
+- Compartir el plan mediante un link real
+- Sistema de cuentas
+- Votación real de asistencia
+- Persistencia en base de datos
+- Compra de boletas
 
-## AI Log
+## Bitácora de IA
 
-We used AI (Claude) to help turn our team's WhatsApp planning conversation — where we defined the problem, MVP, and roles — into the structured README format this assignment requires (problem statement, web app justification, user stories in As-a/I-want/So-that format). What changed: the AI organized our informal notes into the specific sections and format the rubric asks for, and phrased the problem statement and justification more specifically (e.g., naming concrete alternatives like WhatsApp groups and existing ticketing apps) instead of the general description we had in chat. The underlying idea, MVP scope, and role assignments are unchanged from what the team agreed on.
+Usamos IA (Claude) para ayudar a convertir la conversación de planeación de nuestro equipo en WhatsApp — donde definimos el problema, el MVP y los roles — en el formato estructurado de README que pide esta tarea (planteamiento del problema, justificación de la app web, historias de usuario en formato Como/Quiero/Para). Qué cambió: la IA organizó nuestras notas informales en las secciones y el formato específico que pide la rúbrica, y redactó el planteamiento del problema y la justificación de forma más específica (por ejemplo, nombrando alternativas concretas como grupos de WhatsApp y apps de boletería existentes) en lugar de la descripción general que teníamos en el chat. La idea de fondo, el alcance del MVP y la asignación de roles no cambiaron respecto a lo que el equipo acordó.
