@@ -1,52 +1,52 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/ldLXoPBi)
-# HW01 — Team README & Project Kickoff
+# CineHub
 
-**Week 1 · DSAW · Universidad de La Sabana**
+## Problem
 
-## Objective
+Groups of friends in Colombia waste time and lose plans going back and forth in WhatsApp trying to agree on which movie to watch, at what cinema, and at what time. Movie information (showtimes, cinema, poster, rating) gets buried in chat scroll, and there's no single place to propose a plan and see who's actually confirmed to come — so plans quietly fall apart.
 
-Form your team, choose the problem you will solve this semester, and argue why it deserves a web application.
+## Web App Justification
 
-## Deliverables
+1. A WhatsApp group can't structure movie data (poster, rating, showtimes, cinema) — it's just scrolling text, and old plans get buried under new messages.
+2. A spreadsheet can't show real-time movie listings or let a friend tap "Yes / Maybe / No" on a plan — it has no interactive, shareable view.
+3. Existing apps like Cine Colombia or Cinemark let you buy tickets, but they don't help a group agree on *which* movie and *whether everyone is actually coming*.
+4. A shareable plan link lets any invited friend confirm attendance in one tap, without needing an account or being added to a group chat.
 
-Create the following files at the root of the repository:
+## Target Users
 
-### `README.md`
-Must include:
-- **Problem:** What problem are you solving? Be specific. Not "improve communication" but "Sabana students don't know when study rooms are available."
-- **Web app justification:** Why a web app and not a spreadsheet, a WhatsApp group, or an existing tool? Give at least 3 concrete reasons.
-- **Target users:** Who will use it? Be specific — not "anyone."
-- **User stories (minimum 3):** Format: `As a [user type], I want to [action] so that [benefit].`
-- **Team roles:** Who does what. Every team member must have a clear, named role.
+University students and groups of friends in Colombia who want to plan a movie outing together but struggle to reach a decision and get confirmations through chat alone.
 
-### `index.html`
-A simple landing page (no CSS yet) that introduces the project. GitHub Pages will publish it automatically.
+## User Stories
 
-### `figma-link.txt`
-A text file containing the link to your Figma sketch (or a photo of a whiteboard). Any visual representation of how you imagine the app works.
+- As a user, I want to search and browse popular movies so that I can decide what to watch.
+- As a user, I want to see showtimes and select a cinema, date, and hour so that I can build a plan around a specific screening.
+- As a plan creator, I want to share a link to my movie plan so that my friends can see all the details without me repeating them.
+- As an invited friend, I want to respond Yes / Maybe / No to a plan so that the organizer knows who is actually coming.
 
-## Layer 2
+## Team Roles
 
-The sketch must show at least one screen with annotations that explain what each element does.
+| Member | GitHub | Role |
+|---|---|---|
+| Samuel | [@samuraidm45-create](https://github.com/samuraidm45-create) | Frontend Developer — builds the interface, `index.html`, and the visual structure of CineHub's screens |
+| Samuel David Ortiz Pico | [@samueldavidortizpico-hash](https://github.com/samueldavidortizpico-hash) | Backend Developer — application logic, movie/showtime/plan data, feature integration |
+| Juan Pablo Vanegas | [@juanpablovanegas](https://github.com/juanpablovanegas) | UI/UX & Project Documentation — Figma wireframes, user experience, and project documentation |
+
+## MVP
+
+**Must work:**
+- View movies
+- View movie details
+- View showtimes
+- Select a showtime
+- Create a plan
+- Display the plan
+
+**Stretch (extension):**
+- Share plan via a real shareable link
+- Account system
+- Real attendance voting
+- Database persistence
+- Ticket purchase
 
 ## AI Log
 
-Did you use AI to write the user stories or the problem statement? If so, include in the README:
-- The exact prompt you used
-- What changed from what the AI generated
-- Why you made those changes
-
-## Deployment
-
-The repository must have GitHub Pages enabled. The URL must load correctly.
-
-## Autograding
-
-The pipeline will check:
-- ✅ Presence of `README.md`, `index.html`, `figma-link.txt`
-- ✅ `index.html` has content
-- ✅ `figma-link.txt` contains a URL
-- ✅ GitHub Pages URL responds with HTTP 200
-- ✅ README argues why a web app is the right solution (reviewed by Claude)
-
-> **Submission rule:** If it is not deployed and public, it cannot be graded.
+We used AI (Claude) to help turn our team's WhatsApp planning conversation — where we defined the problem, MVP, and roles — into the structured README format this assignment requires (problem statement, web app justification, user stories in As-a/I-want/So-that format). What changed: the AI organized our informal notes into the specific sections and format the rubric asks for, and phrased the problem statement and justification more specifically (e.g., naming concrete alternatives like WhatsApp groups and existing ticketing apps) instead of the general description we had in chat. The underlying idea, MVP scope, and role assignments are unchanged from what the team agreed on.
