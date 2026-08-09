@@ -17,10 +17,12 @@ Estudiantes universitarios y grupos de amigos en Colombia que quieren organizar 
 
 ## Historias de usuario
 
-- Como usuario, quiero buscar y explorar películas populares para poder decidir qué ver.
-- Como usuario, quiero ver los horarios y elegir cine, fecha y hora para poder armar un plan alrededor de una función específica.
-- Como creador de un plan, quiero compartir un link de mi plan de cine para que mis amigos vean todos los detalles sin que yo tenga que repetirlos.
-- Como amigo invitado, quiero responder Sí / Tal vez / No a un plan para que el organizador sepa quién realmente va a ir.
+Formato: `As a [user type], I want to [action] so that [benefit].`
+
+- As a user, I want to browse popular movies so that I can decide what to watch.
+- As a user, I want to see showtimes and select a cinema, date, and hour so that I can build a plan around a specific screening.
+- As a plan creator, I want to share a link to my movie plan so that my friends can see all the details without me repeating them.
+- As an invited friend, I want to respond Yes / Maybe / No to a plan so that the organizer knows who is actually coming.
 
 ## Roles del equipo
 
